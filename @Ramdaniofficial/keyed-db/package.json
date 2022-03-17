@@ -1,0 +1,65 @@
+{
+  "_from": "@Ramdaniofficial/keyed-db@^0.2.2",
+  "_id": "@Ramdaniofficial/keyed-db@0.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-yprSnAtj80/VKuDqRcFFLDYltoNV8tChNwFfIgcf6PGD4sjzWIBgs08pRuTqGH5mk5wgL6PBRSsMCZqtZwzFEw==",
+  "_location": "/@Ramdaniofficial/keyed-db",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@Ramdaniofficial/keyed-db@^0.2.2",
+    "name": "@Ramdaniofficial/keyed-db",
+    "escapedName": "@Ramdaniofficial%2fkeyed-db",
+    "scope": "@Ramdaniofficial",
+    "rawSpec": "^0.2.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.2.2"
+  },
+  "_requiredBy": [
+    "/@Ramdaniofficial/baileys"
+  ],
+  "_resolved": "https://registry.npmjs.org/@Ramdaniofficial/keyed-db/-/keyed-db-0.2.4.tgz",
+  "_shasum": "2a09e88fce20b2672deb60a7750c5fe3ab0dfd99",
+  "_spec": "@Ramdaniofficial/keyed-db@^0.2.2",
+  "_where": "D:\\Bot\\NTFVX-Base-main\\node_modules\\@Ramdaniofficial\\baileys",
+  "author": {
+    "name": "Ramdani Official"
+  },
+  "bugs": {
+    "url": "https://github.com/Ramdaniofficial/keyed-db/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Lightweight library to store an in-memory DB",
+  "devDependencies": {
+    "@types/mocha": "5.2.7",
+    "@types/node": "^14.0.14",
+    "assert": "^2.0.0",
+    "mocha": "^8.0.1",
+    "ts-node-dev": "^1.0.0-pre.61",
+    "typescript": "^4.0.0"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "homepage": "https://github.com/Ramdaniofficial/keyed-db",
+  "keywords": [
+    "db",
+    "key"
+  ],
+  "license": "MIT",
+  "main": "lib/KeyedDB.js",
+  "name": "@Ramdaniofficial/keyed-db",
+  "repository": {
+    "url": "git+ssh://git@github.com/Ramdaniofficial/keyed-db.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build",
+    "test": "mocha --timeout 60000 -r ts-node/register src/Tests.ts"
+  },
+  "types": "lib/KeyedDB.d.ts",
+  "version": "0.2.4"
+}

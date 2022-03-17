@@ -1,0 +1,30 @@
+{
+  "name": "Ramdaniofficial-api",
+  "version": "1.0.1",
+  "description": "Ramdaniofficial-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramdaniofficial/Ramdaniofficial-api.git"
+  },
+  "keywords": [
+    "YNTKTS"
+  ],
+  "author": "Ramdani Official",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramdaniofficial/Ramdaniofficial-Api/issues"
+  },
+  "homepage": "https://github.com/Ramdaniofficial/Ramdaniofficial-Api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "qs": "^6.10.1"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

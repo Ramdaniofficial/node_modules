@@ -1,0 +1,32 @@
+{
+  "name": "nsfai",
+  "version": "2.0.0",
+  "description": "A simplified wrapper around Clarifai's NSFW detection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "travisTest": "npm test && node ./travis-test/image.js && node ./travis-test/video.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbyjins/nsfai.git"
+  },
+  "keywords": [
+    "ai",
+    "nsfw",
+    "filter"
+  ],
+  "author": "skiilaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbyjins/nsfai/issues"
+  },
+  "homepage": "https://github.com/bbyjins/nsfai#readme",
+  "dependencies": {
+    "clarifai": "^2.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0"
+  }
+}
